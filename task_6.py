@@ -1,11 +1,8 @@
-a = input("возраст пользователя: ")
-e = input("пол пользователя: ")
-g = input("имя пользователя: ")
-t = input("город пользователя:")
-i = input("в каком классе пользователь учится: ")
+info_list = []
+info_list.append(input("возраст пользователя: "))
+info_list.append(input("пол пользователя: "))
+info_list.append(input("имя пользователя: "))
+info_list.append(input("город пользователя:"))
+info_list.append(input("в каком классе пользователь учится: "))
 
-print(f"age: {a}")
-print(f"пол: {e}")
-print(f"имя:{g}")
-print(f"город:{t}")
-print(f"класс: {i}")
+print(info_list)
