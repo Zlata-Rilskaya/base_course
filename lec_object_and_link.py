@@ -5,3 +5,7 @@ print(s, memory_id)
 
 s=5
 print(s) 
+
+s = 4 + 6
+memory_id = id(s)
+print(s, memory_id)
