@@ -1,13 +1,17 @@
-import math 
-import task_1
+import numpy as np
 from task_1 import acceleration_of_gravity as g
 
-x0 = 0
+x0= 0
 y0 = 0
-v0 = 15
+V0 = 50
 
-for t in range(0, 6, 1):
-    x = x0 + v0 * t
-    y = y0 + v0 * t - (g * t**2 / 2)
+t = np.arange(0, 6, 0.2)
 
-print(x, y)
+x = x0 + V0*t
+y = y0 + V0*t - g*t**2/2
+
+h = [t,x,y]
+b = np.array(h)
+print(h)
+
+

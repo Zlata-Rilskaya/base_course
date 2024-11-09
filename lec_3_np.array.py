@@ -2,7 +2,7 @@ import numpy as np
 
 a = [1, 2, 4]
 
-b = np.array(a) # массива из списка
+b = np.array(a) # массив из списка
 
 print(type(a))
 print(type(b))
